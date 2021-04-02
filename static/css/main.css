@@ -1,0 +1,70 @@
+#logo-container {
+  margin-top:20px;
+}
+
+.spacing {
+  margin-bottom:  .5rem;
+}
+
+.form-container {
+  border: 1px solid black; 
+  border-radius: 4ppx;
+}
+
+#form-container {
+  padding:30px;
+} 
+#submit-btn {
+  margin-bottom:18px;
+  background-color: #f0c14b;
+  border-color: #a88734 #9c7e31 #946a29;
+  color: #111;
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+}
+
+#submit-btn :hover{
+  margin-bottom:18px;
+  background-color: #f0c14b;
+  border-color: #a88734 #9c7e31 #946a29;
+  color: #111;
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+}
+
+.help-btn{
+  padding-left: 0;
+}
+
+h6.new-text:before {
+  border-top: 2px solid #dfdfdf;
+  content: "";
+  margin: 0 auto;
+  position: absolute
+  top:50%
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 95%;
+  z-index: -1;
+}
+
+h6.new-text span{
+  background: #fff;
+  padding: 0 15px
+}
+
+.account-btn {
+  background: linear-grandient(to bottom, #e7e9ec, #d9dce1);
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  border-style: solid;
+  border width: 1px;
+  color: #1111
+}
+
+.account-btn-hover{
+  background: #e7e9ec;
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  border-style: solid;
+  border width: 1px;
+  color: #1111
+
+}
